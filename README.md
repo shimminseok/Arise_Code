@@ -66,15 +66,6 @@ Unity 2022.3.17f1 + URP 환경에서 개발되었으며, Git을 기반으로 팀
 - 설치된 타워를 클릭하여 업그레이드, 제거가 가능합니다.
 ![Movie_006](https://github.com/user-attachments/assets/ccafee1c-af4b-49cd-a38b-5cf4f96f08f1)
 
-### 구조도
-![Image](https://github.com/user-attachments/assets/9543f5b6-9ec6-4c07-b7e6-159dbdc9f723)
-
-### 핵심 기능
-- 실시간 배치 미리보기: BuildingGhost는 SetMaterialColor와 SetPosition으로 설치 가능 여부 및 위치를 실시간 반영합니다.
-- 그리드 충돌 검사: GridManager.CanPlaceBuilding()에서 GridCell을 기반으로 설치 가능 여부를 판단.
-- 설치 완료 시 타워 FSM 상태 Build -> Idle 전이
-- 배치 처리: BuildingPlacer에서 설치 확정 시, PlaceBuilding()을 통해 실제 위치에 오브젝트를 정렬 및 GridCell에 등록합니다.
-
 </div>
 </details>
 
