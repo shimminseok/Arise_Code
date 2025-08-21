@@ -75,8 +75,6 @@ Unity 2022.3.17f1 + URP 환경에서 개발되었으며, Git을 기반으로 팀
 - 설치 완료 시 타워 FSM 상태 Build -> Idle 전이
 - 배치 처리: BuildingPlacer에서 설치 확정 시, PlaceBuilding()을 통해 실제 위치에 오브젝트를 정렬 및 GridCell에 등록합니다.
 
----
-
 </div>
 </details>
 
